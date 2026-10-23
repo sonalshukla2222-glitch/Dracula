@@ -28,6 +28,7 @@ def spider_urls(url, keyword):
                     print(url_join)
                     spider_urls(url_join, keyword)
                 else:
+                    pass
 
 url = input("Hey what is the url: ")
 keyword = input("Okay now, what is the keyword: ")
