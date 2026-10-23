@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Ignore generated reconnaissance output
+output/*.txt
+output/*.tsv
+!output/.gitkeep
